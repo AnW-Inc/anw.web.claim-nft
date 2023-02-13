@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: linear-gradient(166.15deg, rgb(0, 57, 63) -37.37%, rgb(24, 26, 28) 66.42%);
+  // background: black;
+  z-index: 1;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 255, 200);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff7e40;
+  cursor: pointer;
+}
